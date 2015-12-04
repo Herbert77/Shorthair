@@ -9,23 +9,71 @@
 /* Begin PBXBuildFile section */
 		E525CEBD1C0A8B63003A8C2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E525CEBC1C0A8B63003A8C2F /* main.m */; };
 		E525CEC01C0A8B63003A8C2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E525CEBF1C0A8B63003A8C2F /* AppDelegate.m */; };
-		E525CEC31C0A8B63003A8C2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E525CEC21C0A8B63003A8C2F /* ViewController.m */; };
-		E525CEC61C0A8B63003A8C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E525CEC41C0A8B63003A8C2F /* Main.storyboard */; };
 		E525CEC81C0A8B63003A8C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E525CEC71C0A8B63003A8C2F /* Assets.xcassets */; };
 		E525CECB1C0A8B63003A8C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E525CEC91C0A8B63003A8C2F /* LaunchScreen.storyboard */; };
+		E525CEE01C0A9C75003A8C2F /* DOPNavbarMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E525CEDD1C0A9C75003A8C2F /* DOPNavbarMenu.m */; };
+		E525CEE11C0A9C75003A8C2F /* UIView+DOPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E525CEDF1C0A9C75003A8C2F /* UIView+DOPExtension.m */; };
+		E525E6D11C11374700F0FCFE /* HHSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = E525E6D01C11374700F0FCFE /* HHSlideView.m */; };
+		E525E6D41C11399600F0FCFE /* NewsSuperController.m in Sources */ = {isa = PBXBuildFile; fileRef = E525E6D31C11399600F0FCFE /* NewsSuperController.m */; };
+		E525E6D71C113AE800F0FCFE /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E525E6D61C113AE800F0FCFE /* NewsViewController.m */; };
+		E525E6DB1C113B1700F0FCFE /* MyTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E525E6DA1C113B1700F0FCFE /* MyTrendsViewController.m */; };
+		E525E6DE1C113DC400F0FCFE /* UIColor+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = E525E6DD1C113DC400F0FCFE /* UIColor+extend.m */; };
+		E550EBB61C0E8931000BE749 /* RankingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E550EBB41C0E8931000BE749 /* RankingsViewController.m */; };
+		E550EBB71C0E8931000BE749 /* RankingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E550EBB51C0E8931000BE749 /* RankingsViewController.xib */; };
+		E550EBBC1C0E8E1A000BE749 /* RankingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E550EBBA1C0E8E1A000BE749 /* RankingsCell.m */; };
+		E550EBBD1C0E8E1A000BE749 /* RankingsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E550EBBB1C0E8E1A000BE749 /* RankingsCell.xib */; };
+		E5AFB0AA1C0D3ACD00C78318 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AFB0A81C0D3ACD00C78318 /* LoginViewController.m */; };
+		E5AFB0AB1C0D3ACD00C78318 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5AFB0A91C0D3ACD00C78318 /* LoginViewController.xib */; };
+		E5F0BD661C0AEF61000ADD9C /* HHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F0BD651C0AEF61000ADD9C /* HHNavigationController.m */; };
+		E5F0BD691C0BDFE1000ADD9C /* HHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F0BD681C0BDFE1000ADD9C /* HHBaseViewController.m */; };
+		E5F0BD6C1C0BE016000ADD9C /* LBHamburgerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F0BD6B1C0BE016000ADD9C /* LBHamburgerButton.m */; };
+		E5F0BD6F1C0BE3CF000ADD9C /* Development@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5F0BD6E1C0BE3CF000ADD9C /* Development@2x.png */; };
+		E5F0BD741C0BF2C1000ADD9C /* UIColor+FlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F0BD731C0BF2C1000ADD9C /* UIColor+FlatColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E51D58D51C119F5F0089EFF0 /* Shorthair_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shorthair_Prefix.pch; sourceTree = "<group>"; };
 		E525CEB81C0A8B63003A8C2F /* Shorthair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shorthair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E525CEBC1C0A8B63003A8C2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E525CEBE1C0A8B63003A8C2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E525CEBF1C0A8B63003A8C2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E525CEC11C0A8B63003A8C2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E525CEC21C0A8B63003A8C2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E525CEC51C0A8B63003A8C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E525CEC71C0A8B63003A8C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E525CECA1C0A8B63003A8C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E525CECC1C0A8B63003A8C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E525CEDC1C0A9C75003A8C2F /* DOPNavbarMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOPNavbarMenu.h; sourceTree = "<group>"; };
+		E525CEDD1C0A9C75003A8C2F /* DOPNavbarMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOPNavbarMenu.m; sourceTree = "<group>"; };
+		E525CEDE1C0A9C75003A8C2F /* UIView+DOPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DOPExtension.h"; sourceTree = "<group>"; };
+		E525CEDF1C0A9C75003A8C2F /* UIView+DOPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DOPExtension.m"; sourceTree = "<group>"; };
+		E525E6CF1C11374700F0FCFE /* HHSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSlideView.h; sourceTree = "<group>"; };
+		E525E6D01C11374700F0FCFE /* HHSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSlideView.m; sourceTree = "<group>"; };
+		E525E6D21C11399600F0FCFE /* NewsSuperController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsSuperController.h; sourceTree = "<group>"; };
+		E525E6D31C11399600F0FCFE /* NewsSuperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsSuperController.m; sourceTree = "<group>"; };
+		E525E6D51C113AE800F0FCFE /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		E525E6D61C113AE800F0FCFE /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		E525E6D91C113B1700F0FCFE /* MyTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTrendsViewController.h; sourceTree = "<group>"; };
+		E525E6DA1C113B1700F0FCFE /* MyTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTrendsViewController.m; sourceTree = "<group>"; };
+		E525E6DC1C113DC400F0FCFE /* UIColor+extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+extend.h"; sourceTree = "<group>"; };
+		E525E6DD1C113DC400F0FCFE /* UIColor+extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+extend.m"; sourceTree = "<group>"; };
+		E550EBB31C0E8931000BE749 /* RankingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingsViewController.h; sourceTree = "<group>"; };
+		E550EBB41C0E8931000BE749 /* RankingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingsViewController.m; sourceTree = "<group>"; };
+		E550EBB51C0E8931000BE749 /* RankingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankingsViewController.xib; sourceTree = "<group>"; };
+		E550EBB91C0E8E1A000BE749 /* RankingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingsCell.h; sourceTree = "<group>"; };
+		E550EBBA1C0E8E1A000BE749 /* RankingsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingsCell.m; sourceTree = "<group>"; };
+		E550EBBB1C0E8E1A000BE749 /* RankingsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankingsCell.xib; sourceTree = "<group>"; };
+		E5AFB0A71C0D3ACD00C78318 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E5AFB0A81C0D3ACD00C78318 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E5AFB0A91C0D3ACD00C78318 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		E5F0BD641C0AEF61000ADD9C /* HHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHNavigationController.h; sourceTree = "<group>"; };
+		E5F0BD651C0AEF61000ADD9C /* HHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNavigationController.m; sourceTree = "<group>"; };
+		E5F0BD671C0BDFE1000ADD9C /* HHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBaseViewController.h; sourceTree = "<group>"; };
+		E5F0BD681C0BDFE1000ADD9C /* HHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBaseViewController.m; sourceTree = "<group>"; };
+		E5F0BD6A1C0BE016000ADD9C /* LBHamburgerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBHamburgerButton.h; sourceTree = "<group>"; };
+		E5F0BD6B1C0BE016000ADD9C /* LBHamburgerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBHamburgerButton.m; sourceTree = "<group>"; };
+		E5F0BD6E1C0BE3CF000ADD9C /* Development@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Development@2x.png"; sourceTree = "<group>"; };
+		E5F0BD701C0BEE67000ADD9C /* UtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		E5F0BD711C0BF263000ADD9C /* HHMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHMacros.h; sourceTree = "<group>"; };
+		E5F0BD721C0BF2C1000ADD9C /* UIColor+FlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatColors.h"; sourceTree = "<group>"; };
+		E5F0BD731C0BF2C1000ADD9C /* UIColor+FlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatColors.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +106,9 @@
 		E525CEBA1C0A8B63003A8C2F /* Shorthair */ = {
 			isa = PBXGroup;
 			children = (
-				E525CEBE1C0A8B63003A8C2F /* AppDelegate.h */,
-				E525CEBF1C0A8B63003A8C2F /* AppDelegate.m */,
-				E525CEC11C0A8B63003A8C2F /* ViewController.h */,
-				E525CEC21C0A8B63003A8C2F /* ViewController.m */,
-				E525CEC41C0A8B63003A8C2F /* Main.storyboard */,
-				E525CEC71C0A8B63003A8C2F /* Assets.xcassets */,
-				E525CEC91C0A8B63003A8C2F /* LaunchScreen.storyboard */,
-				E525CECC1C0A8B63003A8C2F /* Info.plist */,
+				E525CED31C0A977D003A8C2F /* Classes */,
+				E525CED21C0A9772003A8C2F /* AppDelegate */,
+				E525CED61C0A979E003A8C2F /* Resources */,
 				E525CEBB1C0A8B63003A8C2F /* Supporting Files */,
 			);
 			path = Shorthair;
@@ -74,9 +117,206 @@
 		E525CEBB1C0A8B63003A8C2F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E51D58D51C119F5F0089EFF0 /* Shorthair_Prefix.pch */,
+				E525CEC91C0A8B63003A8C2F /* LaunchScreen.storyboard */,
+				E525CECC1C0A8B63003A8C2F /* Info.plist */,
 				E525CEBC1C0A8B63003A8C2F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E525CED21C0A9772003A8C2F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E525CEBE1C0A8B63003A8C2F /* AppDelegate.h */,
+				E525CEBF1C0A8B63003A8C2F /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E525CED31C0A977D003A8C2F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E525CED51C0A978C003A8C2F /* Common */,
+				E525CED41C0A9785003A8C2F /* Module */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E525CED41C0A9785003A8C2F /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				E5AFB0A51C0D3A5400C78318 /* LoginModule */,
+				E5AFB0A41C0D380900C78318 /* NewsModule */,
+				E5AFB0AC1C0E854A00C78318 /* RankingsModule */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		E525CED51C0A978C003A8C2F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E525CEDA1C0A97FA003A8C2F /* Vendors */,
+				E525CED91C0A97EE003A8C2F /* Helpers */,
+				E525CED81C0A97E7003A8C2F /* General */,
+				E525CED71C0A97E1003A8C2F /* Macro */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		E525CED61C0A979E003A8C2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E525CEC71C0A8B63003A8C2F /* Assets.xcassets */,
+				E5AFB0A01C0C3E6300C78318 /* homePage */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E525CED71C0A97E1003A8C2F /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				E5F0BD711C0BF263000ADD9C /* HHMacros.h */,
+				E5F0BD701C0BEE67000ADD9C /* UtilsMacro.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		E525CED81C0A97E7003A8C2F /* General */ = {
+			isa = PBXGroup;
+			children = (
+				E5F0BD641C0AEF61000ADD9C /* HHNavigationController.h */,
+				E5F0BD651C0AEF61000ADD9C /* HHNavigationController.m */,
+				E5F0BD671C0BDFE1000ADD9C /* HHBaseViewController.h */,
+				E5F0BD681C0BDFE1000ADD9C /* HHBaseViewController.m */,
+				E5F0BD721C0BF2C1000ADD9C /* UIColor+FlatColors.h */,
+				E5F0BD731C0BF2C1000ADD9C /* UIColor+FlatColors.m */,
+				E525E6DC1C113DC400F0FCFE /* UIColor+extend.h */,
+				E525E6DD1C113DC400F0FCFE /* UIColor+extend.m */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		E525CED91C0A97EE003A8C2F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		E525CEDA1C0A97FA003A8C2F /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				E5F0BD6D1C0BE045000ADD9C /* HamburgerButton */,
+				E525CEDB1C0A9C3A003A8C2F /* DopNavbarMenu */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		E525CEDB1C0A9C3A003A8C2F /* DopNavbarMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E525CEDC1C0A9C75003A8C2F /* DOPNavbarMenu.h */,
+				E525CEDD1C0A9C75003A8C2F /* DOPNavbarMenu.m */,
+				E525CEDE1C0A9C75003A8C2F /* UIView+DOPExtension.h */,
+				E525CEDF1C0A9C75003A8C2F /* UIView+DOPExtension.m */,
+			);
+			name = DopNavbarMenu;
+			sourceTree = "<group>";
+		};
+		E525E6CD1C11372E00F0FCFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E525E6CF1C11374700F0FCFE /* HHSlideView.h */,
+				E525E6D01C11374700F0FCFE /* HHSlideView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E525E6CE1C11373200F0FCFE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E525E6D21C11399600F0FCFE /* NewsSuperController.h */,
+				E525E6D31C11399600F0FCFE /* NewsSuperController.m */,
+				E525E6D51C113AE800F0FCFE /* NewsViewController.h */,
+				E525E6D61C113AE800F0FCFE /* NewsViewController.m */,
+				E525E6D91C113B1700F0FCFE /* MyTrendsViewController.h */,
+				E525E6DA1C113B1700F0FCFE /* MyTrendsViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E550EBB81C0E8DDF000BE749 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E550EBB91C0E8E1A000BE749 /* RankingsCell.h */,
+				E550EBBA1C0E8E1A000BE749 /* RankingsCell.m */,
+				E550EBBB1C0E8E1A000BE749 /* RankingsCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E5AFB0A01C0C3E6300C78318 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				E5F0BD6E1C0BE3CF000ADD9C /* Development@2x.png */,
+			);
+			name = homePage;
+			sourceTree = "<group>";
+		};
+		E5AFB0A41C0D380900C78318 /* NewsModule */ = {
+			isa = PBXGroup;
+			children = (
+				E525E6CE1C11373200F0FCFE /* ViewController */,
+				E525E6CD1C11372E00F0FCFE /* View */,
+			);
+			name = NewsModule;
+			sourceTree = "<group>";
+		};
+		E5AFB0A51C0D3A5400C78318 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				E5AFB0A61C0D3AA100C78318 /* ViewController */,
+			);
+			name = LoginModule;
+			sourceTree = "<group>";
+		};
+		E5AFB0A61C0D3AA100C78318 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E5AFB0A71C0D3ACD00C78318 /* LoginViewController.h */,
+				E5AFB0A81C0D3ACD00C78318 /* LoginViewController.m */,
+				E5AFB0A91C0D3ACD00C78318 /* LoginViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E5AFB0AC1C0E854A00C78318 /* RankingsModule */ = {
+			isa = PBXGroup;
+			children = (
+				E550EBB81C0E8DDF000BE749 /* View */,
+				E5AFB0AD1C0E856F00C78318 /* ViewController */,
+			);
+			name = RankingsModule;
+			sourceTree = "<group>";
+		};
+		E5AFB0AD1C0E856F00C78318 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E550EBB31C0E8931000BE749 /* RankingsViewController.h */,
+				E550EBB41C0E8931000BE749 /* RankingsViewController.m */,
+				E550EBB51C0E8931000BE749 /* RankingsViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E5F0BD6D1C0BE045000ADD9C /* HamburgerButton */ = {
+			isa = PBXGroup;
+			children = (
+				E5F0BD6A1C0BE016000ADD9C /* LBHamburgerButton.h */,
+				E5F0BD6B1C0BE016000ADD9C /* LBHamburgerButton.m */,
+			);
+			name = HamburgerButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +376,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E550EBBD1C0E8E1A000BE749 /* RankingsCell.xib in Resources */,
+				E5AFB0AB1C0D3ACD00C78318 /* LoginViewController.xib in Resources */,
 				E525CECB1C0A8B63003A8C2F /* LaunchScreen.storyboard in Resources */,
+				E550EBB71C0E8931000BE749 /* RankingsViewController.xib in Resources */,
 				E525CEC81C0A8B63003A8C2F /* Assets.xcassets in Resources */,
-				E525CEC61C0A8B63003A8C2F /* Main.storyboard in Resources */,
+				E5F0BD6F1C0BE3CF000ADD9C /* Development@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +392,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E525CEC31C0A8B63003A8C2F /* ViewController.m in Sources */,
+				E525CEE01C0A9C75003A8C2F /* DOPNavbarMenu.m in Sources */,
+				E5F0BD661C0AEF61000ADD9C /* HHNavigationController.m in Sources */,
 				E525CEC01C0A8B63003A8C2F /* AppDelegate.m in Sources */,
+				E525E6D41C11399600F0FCFE /* NewsSuperController.m in Sources */,
+				E5AFB0AA1C0D3ACD00C78318 /* LoginViewController.m in Sources */,
+				E550EBB61C0E8931000BE749 /* RankingsViewController.m in Sources */,
 				E525CEBD1C0A8B63003A8C2F /* main.m in Sources */,
+				E525E6DB1C113B1700F0FCFE /* MyTrendsViewController.m in Sources */,
+				E5F0BD741C0BF2C1000ADD9C /* UIColor+FlatColors.m in Sources */,
+				E5F0BD6C1C0BE016000ADD9C /* LBHamburgerButton.m in Sources */,
+				E5F0BD691C0BDFE1000ADD9C /* HHBaseViewController.m in Sources */,
+				E525E6D11C11374700F0FCFE /* HHSlideView.m in Sources */,
+				E525E6D71C113AE800F0FCFE /* NewsViewController.m in Sources */,
+				E550EBBC1C0E8E1A000BE749 /* RankingsCell.m in Sources */,
+				E525E6DE1C113DC400F0FCFE /* UIColor+extend.m in Sources */,
+				E525CEE11C0A9C75003A8C2F /* UIView+DOPExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E525CEC41C0A8B63003A8C2F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E525CEC51C0A8B63003A8C2F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E525CEC91C0A8B63003A8C2F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,6 +509,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Shorthair/Shorthair_Prefix.pch";
 				INFOPLIST_FILE = Shorthair/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NewThread.Shorthair;
@@ -272,6 +522,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Shorthair/Shorthair_Prefix.pch";
 				INFOPLIST_FILE = Shorthair/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NewThread.Shorthair;
@@ -298,6 +550,7 @@
 				E525CED11C0A8B63003A8C2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

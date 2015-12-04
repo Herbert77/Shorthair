@@ -1,0 +1,20 @@
+//
+//  Shorthair_Prefix.pch
+//  Shorthair
+//
+//  Created by Herbert Hu on 15/12/4.
+//  Copyright © 2015年 Herbert Hu. All rights reserved.
+//
+
+#ifndef Shorthair_Prefix_pch
+#define Shorthair_Prefix_pch
+
+#import "HHBaseViewController.h"
+#import "HHNavigationController.h"
+#import "UIColor+extend.h"
+#import "HHMacros.h"
+#import "UtilsMacro.h"
+
+
+
+#endif /* Shorthair_Prefix_pch */
